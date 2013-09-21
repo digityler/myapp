@@ -12,6 +12,9 @@ gem 'rails_12factor', group: :production
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+#password encryption
+gem 'bcrypt-ruby', '3.0.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
